@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_report_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/default_margin_half"
+        android:paddingTop="@dimen/default_margin_half">
+
+        <RadioButton
+            android:id="@+id/rb_newest_report"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_min_height_small"
+            android:layout_marginLeft="@dimen/default_margin_half"
+            android:layout_marginRight="@dimen/default_margin_half"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_selector_rounded"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/newest_report"
+            android:textColor="@drawable/rbtn_text_color_rounded" />
+
+
+        <RadioButton
+            android:id="@+id/rb_nearly_report"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_min_height_small"
+            android:layout_marginLeft="@dimen/default_margin_half"
+            android:layout_marginRight="@dimen/default_margin_half"
+            android:layout_weight="1"
+            android:background="@drawable/rbtn_selector_rounded"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/nearly_report"
+            android:textColor="@drawable/rbtn_text_color_rounded" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

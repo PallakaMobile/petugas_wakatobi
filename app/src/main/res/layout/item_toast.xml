@@ -1,0 +1,37 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/dimen5"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/default_margin_half"
+    app:contentPadding="@dimen/default_margin">
+
+    <RelativeLayout
+        android:id="@+id/toast_layout_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_logo_toast"
+            android:layout_width="@dimen/dimen36"
+            android:layout_height="@dimen/dimen36"
+            android:src="@mipmap/logo_icon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_toast_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_toEndOf="@+id/iv_logo_toast"
+            android:layout_toRightOf="@+id/iv_logo_toast"
+            android:text="@string/sample"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Petugas - Salam Wakatobi</string>
+    <string name="sample">Sample</string>
+    <string name="navigation_drawer_open">Nav Open</string>
+    <string name="navigation_drawer_close">Nav Close</string>
+    <string name="profile_settings">Pengaturan Profil</string>
+    <string name="about_app">Info Aplikasi</string>
+    <string name="search_report">Ranking</string>
+    <string name="settings_application">Pengaturan Aplikasi</string>
+
+    <!--XrecylcerView-->
+    <string name="listview_header_hint_normal">Tarik untuk memuat ulang</string>
+    <string name="listview_header_hint_release">Lepaskan untuk mulai  memuat ulang</string>
+    <string name="listview_loading">Mengambil data...</string>
+    <string name="nomore_loading">Tidak ada lagi yang dapat dimuat</string>
+    <string name="refreshing">Memuat ulang data...</string>
+    <string name="refresh_done"></string>
+    <string name="loading_done"></string>
+    <string name="listview_header_last_time">last update：</string>
+    <!---->
+
+    <!--Crop Image-->
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <!---->
+
+    <string name="report">Laporan</string>
+    <string name="action">Aksi</string>
+    <string name="newest_report">Laporan Terbaru</string>
+    <string name="nearly_report">Laporan Terdekat</string>
+    <string name="username">Email/KTP/Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="forget_password">Lupa Kata Sandi ?</string>
+    <string name="please_wait">Harap Tunggu</string>
+    <string name="account_inactive">Akun anda tidak aktif</string>
+    <string name="error_empty">Isi data dengan lengkap</string>
+    <string name="footer_login">Pemerintah Kabupaten Wakatobi\n
+    \"Inspektorat\"\n
+    \nVersion 1.0.0</string>
+    <string name="reset_password_request">Permintaan Reset Password</string>
+    <string name="reset_password_description">Silahkan isi alamat email Anda agar sistem bisa\n
+        mengirim kode verifikasi permintaan reset password\n
+    untuk akun Anda.</string>
+    <string name="reset_password">Setel ulang kata sandi</string>
+    <string name="email_address">Alamat Email</string>
+    <string name="send">Kirim</string>
+    <string name="category">Kategori</string>
+    <string name="titik_dua_format">: %1$s</string>
+    <string name="see_location">Lihat lokasi</string>
+    <string name="accept_report_n">Terima\nLaporan</string>
+    <string name="finish_report_n">Selesaikan\nLaporan</string>
+    <string name="detail_report">Detail Laporan</string>
+    <string name="was_verified_by_admin">Telah Diverifikasi Admin pada jam %1$s</string>
+    <string name="was_response">Telah ditanggapi pada jam %1$s</string>
+    <string name="was_finish">Telah diselesaikan pada jam %1$s</string>
+    <string name="open_with">Buka dengan</string>
+    <string name="google_maps_installation">Google maps tidak tersedia, Pasang GoogleMap?</string>
+    <string name="install">Pasang</string>
+    <string name="google_maps">Google Map</string>
+    <string name="no_data">Saat ini data belum tersedia</string>
+    <string name="access_location_not_allowed">Akses lokasi tidak di izinkan</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="gps_disable">Gps tidak aktif</string>
+    <string name="ask_enable_gps">Aktifkan GPS ?</string>
+    <string name="settings">Pengaturan</string>
+    <string name="cancel">Batal</string>
+    <string name="cant_find_location">Tidak dapat menemukan lokasi</string>
+    <string name="from_your_location">dari lokasi Anda</string>
+    <string name="format_km">%1$s KM</string>
+    <string name="date_confirm">Ditanggapi tanggal %1$s</string>
+    <string name="detail_action">Detail Aksi</string>
+    <string name="send_response">Kirim Tanggapan</string>
+    <string name="response_value">Isi tanggapan</string>
+    <string name="image_response">Gambar Tanggapan</string>
+    <string name="camera_not_allowed">Akses kemare tidak di izinkan</string>
+    <string name="call_reporter">Telepon Pelapor</string>
+    <string name="action_finish">Aksi/Laporan Terselesaikan</string>
+    <string name="ranking">Ranking</string>
+    <string name="rank">Peringkat</string>
+    <string name="from">dari</string>
+    <string name="officer">Petugas</string>
+    <string name="total_point_dot">Total Poin :</string>
+    <string name="name">Nama</string>
+    <string name="instance">Instansi</string>
+    <string name="point">Poin</string>
+    <string name="rank_en">Rank</string>
+    <string name="about_imaskot">Salam Wakatobi adalah Sarana Layanan Aduan Masyarakat Wakatobi berbasis ICT (Information Communication Technology) dimana masyarakat dapat melakukan pengaduan kepada Pemerintah secara Real Time dan pemerintah akan melakukan feedback laporan sehingga masyarakat dapat memantau laporannya</string>
+    <string name="app_version_title">Versi Aplikasi</string>
+    <string name="app_version_content">Versi %1$s</string>
+    <string name="penanggung_jawab_title">Penanggung Jawab</string>
+    <string name="penanggung_jawab_content">Pemerintah Kabupaten Wakatobi \"Inspektorat\"</string>
+    <string name="website_title">Website</string>
+    <string name="website_content">http://www.wakatobikab.go.id/</string>
+    <string name="email_title">E-mail</string>
+    <string name="email_content">salamwakatobiapp@gmail.com</string>
+    <string name="map_mode">Mode Peta</string>
+    <string name="mode_road_map">Mode Roadmap</string>
+    <string name="mode_satellite">Mode Satellite</string>
+    <string name="mode_hybrid">Mode Hybrid</string>
+    <string name="mode_terrain">Mode Terrain</string>
+    <string name="give_rating">Berikan Rating</string>
+    <string name="give_rating_description">Berikan rating dan saran agar aplikasi ini menjadi lebih
+        baik
+    </string>
+    <string name="send_rating">Kirim Rating</string>
+    <string name="update">Perbarui</string>
+    <string name="information_profile">Informasi Pribadi</string>
+    <string name="edit_profile">Ubah Profil</string>
+    <string name="profile">Data Diri</string>
+    <string name="change_password">Ganti Kata Sandi</string>
+    <string name="change_email">Ganti Email</string>
+    <string name="history_action">Riwayat Aksi</string>
+
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="choose_source">Ambil gambar dari :</string>
+    <string name="save">Simpan</string>
+    <string name="email_not_match">Email tidak sesuai</string>
+    <string name="logout">Keluar</string>
+    <string name="old_email_address">Alamat Email Lama</string>
+    <string name="new_email_address">Alamat Email Baru</string>
+    <string name="new_email_address_repeat">Ulangi Alamat Email Baru</string>
+    <string name="old_password">Kata sandi lama</string>
+    <string name="new_password">Kata sandi baru</string>
+    <string name="new_password_repeat">Ulangi kata sandi baru</string>
+    <string name="rank_dot">Peringkat :</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="no_phone">Nomor Handphone/Telpon</string>
+    <string name="position">Jabatan</string>
+    <string name="home_address">Alamat</string>
+    <string name="name_not_valid">Nama tidak valid</string>
+    <string name="ktp_not_valid">KTP tidak valid</string>
+    <string name="password_not_valid">Minimal 6 karakter</string>
+    <string name="password_not_match">Kata sandi tidak sesuai</string>
+    <string name="email_not_valid">Email tidak valid</string>
+    <string name="phone_not_valid">No telepon tidak valid</string>
+    <string name="position_not_valid">Masukkan nama jabatan yang benar</string>
+    <string name="address_not_valid">Masukkan alamat yang benar</string>
+    <string name="detail_history">Detail Riwayat</string>
+    <string name="point_get_dot">Poin yang didapatkan :</string>
+    <string name="ok">Ok</string>
+    <string name="report_already_accept">Laporan Sudah Diterima Oleh Petugas Lain</string>
+</resources>

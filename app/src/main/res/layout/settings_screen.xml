@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layer_toolbar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_map_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_margin"
+                android:text="@string/map_mode"
+                android:textColor="@color/colorPrimary" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_below="@+id/tv_map_mode"
+                android:background="@color/rfab__color_shadow" />
+
+            <LinearLayout
+                android:id="@+id/ll_map_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_road_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="9"
+                        android:drawableLeft="@drawable/ic_setting_roadmap"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:drawableStart="@drawable/ic_setting_roadmap"
+                        android:gravity="center_vertical"
+                        android:text="@string/mode_road_map"
+                        android:textColor="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:id="@+id/rb_road_map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:background="@color/rfab__color_shadow" />
+
+                <LinearLayout
+                    android:id="@+id/ll_satellite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="9"
+                        android:drawableLeft="@drawable/ic_setting_satellite"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:drawableStart="@drawable/ic_setting_satellite"
+                        android:gravity="center_vertical"
+                        android:text="@string/mode_satellite"
+                        android:textColor="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:id="@+id/rb_satellite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:background="@color/rfab__color_shadow" />
+
+                <LinearLayout
+                    android:id="@+id/ll_hybrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:drawableLeft="@drawable/ic_setting_hybrid"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:drawableStart="@drawable/ic_setting_hybrid"
+                        android:gravity="center_vertical"
+                        android:text="@string/mode_hybrid"
+                        android:textColor="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:id="@+id/rb_hybrid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:background="@color/rfab__color_shadow" />
+
+                <LinearLayout
+                    android:id="@+id/ll_terrain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:drawableLeft="@drawable/ic_setting_terrain"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:drawableStart="@drawable/ic_setting_terrain"
+                        android:gravity="center_vertical"
+                        android:text="@string/mode_terrain"
+                        android:textColor="@color/colorPrimary" />
+
+                    <RadioButton
+                        android:id="@+id/rb_terrain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen1"
+                    android:background="@color/rfab__color_shadow" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_map_mode"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/give_rating"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_rating_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_rating"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/give_rating_description" />
+
+            <Button
+                android:id="@+id/btn_send_rating"
+                style="@style/ButtonPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_rating_description"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:text="@string/send_rating"
+                android:textAllCaps="false"
+                tools:ignore="RtlHardcoded" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

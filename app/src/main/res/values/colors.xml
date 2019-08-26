@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A2954</color>
+    <color name="colorPrimaryPressed">#121d3e</color>
+    <color name="colorPrimaryDark">#1A2954</color>
+    <color name="colorAccent">#1A2954</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_50">#b1ffffff</color>
+    <color name="black_trans80">#e0000000</color>
+    <color name="TextTitle">#3A3E44</color>
+    <color name="TextSubtitle">#7D818B</color>
+    <color name="backgroundColor">#E8E7E7</color>
+    <color name="transparent">#00000000</color>
+    <color name="white50">#82ffffff</color>
+    <color name="green">#379633</color>
+    <color name="blue_soft">#435b9a</color>
+
+    <color name="rfab__color_shadow">#c6c6c6</color>
+</resources>

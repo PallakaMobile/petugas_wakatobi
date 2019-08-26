@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layer_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <ps.petugas.salam.wakatobi.widget.RoundedImageView
+                        android:id="@+id/iv_profile_image"
+                        android:layout_width="@dimen/dimen70"
+                        android:layout_height="@dimen/dimen70"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_default_profile" />
+
+                    <TextView
+                        android:id="@+id/tv_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/default_margin_half"
+                        android:text="@string/sample"
+                        android:textColor="@color/colorPrimary" />
+
+                    <TextView
+                        android:id="@+id/tv_instance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/sample"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin_half"
+                    android:layout_weight="0.6">
+
+                    <TextView
+                        android:id="@+id/tv_rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_star_blue"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/tv_total_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_rank"
+                        android:layout_marginTop="@dimen/default_margin_half"
+                        android:drawableLeft="@drawable/ic_medal_blue"
+                        android:drawablePadding="@dimen/default_margin_half"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tv_total_finish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_total_point"
+                        android:layout_marginTop="@dimen/default_margin_half"
+                        android:background="@drawable/bg_round_blue"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_total_point"
+                        android:layout_marginTop="@dimen/default_margin"
+                        android:layout_toRightOf="@+id/tv_total_finish"
+                        android:paddingLeft="@dimen/default_margin_half"
+                        android:text="@string/action_finish" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/tl_rank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin_half"
+                android:stretchColumns="1"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

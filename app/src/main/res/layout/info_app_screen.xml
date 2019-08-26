@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layer_toolbar" />
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_imaskot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen20"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_about_app"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_imaskot"
+                android:gravity="center"
+                android:padding="@dimen/default_margin"
+                android:text="@string/about_imaskot" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_below="@+id/tv_about"
+                android:background="@color/backgroundColor" />
+
+            <TextView
+                android:id="@+id/tv_app_version_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider1"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/app_version_title"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_app_version_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_app_version_title"
+                android:paddingBottom="@dimen/default_margin_half"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:text="@string/app_version_content" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_below="@+id/tv_app_version_content"
+                android:background="@color/backgroundColor" />
+
+            <TextView
+                android:id="@+id/tv_penanggung_jawab_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider2"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/penanggung_jawab_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/penanggung_jawab_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_penanggung_jawab_title"
+                android:paddingBottom="@dimen/default_margin_half"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:text="@string/penanggung_jawab_content" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_below="@+id/penanggung_jawab_content"
+                android:background="@color/backgroundColor" />
+
+            <ImageView
+                android:id="@+id/iv_internet_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider3"
+                android:paddingBottom="@dimen/default_margin_half"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:src="@drawable/ic_web"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_website_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider3"
+                android:layout_toEndOf="@+id/iv_internet_logo"
+                android:layout_toRightOf="@+id/iv_internet_logo"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/website_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_website_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_website_title"
+                android:layout_toEndOf="@+id/iv_internet_logo"
+                android:layout_toRightOf="@id/iv_internet_logo"
+                android:autoLink="web"
+                android:paddingBottom="@dimen/default_margin_half"
+                android:text="@string/website_content"
+                android:textColorLink="@color/TextTitle" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen1"
+                android:layout_below="@+id/tv_website_content"
+                android:background="@color/backgroundColor" />
+
+            <ImageView
+                android:id="@+id/iv_email_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider4"
+                android:paddingEnd="@dimen/default_margin"
+                android:paddingLeft="@dimen/default_margin"
+                android:paddingRight="@dimen/default_margin"
+                android:paddingStart="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin_half"
+                android:src="@drawable/ic_mail"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_email_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider4"
+                android:layout_toEndOf="@+id/iv_email_logo"
+                android:layout_toRightOf="@+id/iv_email_logo"
+                android:paddingTop="@dimen/default_margin_half"
+                android:text="@string/email_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_email_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email_title"
+                android:layout_toEndOf="@+id/iv_email_logo"
+                android:layout_toRightOf="@id/iv_email_logo"
+                android:autoLink="email"
+                android:text="@string/email_content"
+                android:textColorLink="@color/TextTitle" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
